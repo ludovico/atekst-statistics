@@ -12,8 +12,7 @@ binmode(STDOUT, ":utf8");
 my $articleSeparator = "==============================================================================";
 
 # Init Data file
-#my $filename = 'bigdata.txt'; # Get name from command line?
-my $filename = 'testdata.txt'; # Get name from command line?
+my $filename = 'textdata.txt'; # Get name from command line?
 open(my $fh, '<:encoding(UTF-8)', $filename)
 or die "Could not open file '$filename' $!";
 
