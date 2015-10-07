@@ -20,3 +20,5 @@ nytprof.out
 /_eumm/
 
 results.txt
+debug.*
+*.swp
